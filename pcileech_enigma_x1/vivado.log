@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Apr 13 20:17:58 2025
+# Process ID         : 11040
+# Current directory  : C:/Users/Administrator/Desktop/vmd/pcileech_enigma_x1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent20964 C:\Users\Administrator\Desktop\vmd\pcileech_enigma_x1\pcileech_enigma_x1.xpr
+# Log file           : C:/Users/Administrator/Desktop/vmd/pcileech_enigma_x1/vivado.log
+# Journal file       : C:/Users/Administrator/Desktop/vmd/pcileech_enigma_x1\vivado.jou
+# Running On         : DESKTOP-JJ1DEVM
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13600KF
+# CPU Frequency      : 3494 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 17023 MB
+# Swap memory        : 24105 MB
+# Total Virtual      : 41128 MB
+# Available Virtual  : 29121 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/vmd/pcileech_enigma_x1/pcileech_enigma_x1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1486.676 ; gain = 336.879
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 13 20:18:16 2025...

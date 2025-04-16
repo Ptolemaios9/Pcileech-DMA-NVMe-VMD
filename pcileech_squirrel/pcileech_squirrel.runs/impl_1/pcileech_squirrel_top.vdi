@@ -1,0 +1,892 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sat Apr 12 15:02:47 2025
+# Process ID         : 9260
+# Current directory  : C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/impl_1
+# Command line       : vivado.exe -log pcileech_squirrel_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pcileech_squirrel_top.tcl -notrace
+# Log file           : C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top.vdi
+# Journal file       : C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/impl_1\vivado.jou
+# Running On         : DESKTOP-JJ1DEVM
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13600KF
+# CPU Frequency      : 3494 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 17023 MB
+# Swap memory        : 22205 MB
+# Total Virtual      : 39228 MB
+# Available Virtual  : 31697 MB
+#-----------------------------------------------------------
+source pcileech_squirrel_top.tcl -notrace
+Command: link_design -top pcileech_squirrel_top -part xc7a35tfgg484-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_256_32_clk2_comtx/fifo_256_32_clk2_comtx.dcp' for cell 'i_pcileech_com/i_fifo_256_32_clk2_comtx'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk1_comtx/fifo_32_32_clk1_comtx.dcp' for cell 'i_pcileech_com/i_fifo_32_32_clk2_comtx'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk2_comrx/fifo_64_64_clk2_comrx.dcp' for cell 'i_pcileech_com/i_fifo_64_64_clk2_comrx'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk1_fifocmd/fifo_64_64_clk1_fifocmd.dcp' for cell 'i_pcileech_fifo/i_fifo_cmd_rx'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_34_34/fifo_34_34.dcp' for cell 'i_pcileech_fifo/i_fifo_cmd_tx'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk2/fifo_32_32_clk2.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_rx'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64/fifo_64_64.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_tx'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/bram_bar_zero4k/bram_bar_zero4k.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_bar0/i_bram_bar_zero4k'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk1_bar_rdrsp/fifo_134_134_clk1_bar_rdrsp.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_134_134_clk1_bar_rdrsp'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_74_74_clk1_bar_rd1/fifo_74_74_clk1_bar_rd1.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_74_74_clk1_bar_rd1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_141_141_clk1_bar_wr/fifo_141_141_clk1_bar_wr.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_wrengine/i_fifo_141_141_clk1_bar_wr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_43_43_clk2/fifo_43_43_clk2.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_43_43_clk2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_49_49_clk2/fifo_49_49_clk2.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_49_49_clk2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_129_129_clk1/fifo_129_129_clk1.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_cfgspace_pcie_tx/i_fifo_129_129_clk1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/bram_pcie_cfgspace/bram_pcie_cfgspace.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_mem_wrap/i_bram_pcie_cfgspace'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/drom_pcie_cfgspace_rw1c/drom_pcie_cfgspace_rw1c.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_mem_wrap/i_drom_pcie_cfgspace_rw1c'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/drom_pcie_cfgspace_writemask/drom_pcie_cfgspace_writemask.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_mem_wrap/i_drom_pcie_cfgspace_writemask'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2/fifo_134_134_clk2.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_dst_fifo/i_fifo_134_134_clk2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2_rxfifo/fifo_134_134_clk2_rxfifo.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_134_134_clk2_rxfifo'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_1_1_clk2/fifo_1_1_clk2.dcp' for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_1_1_clk2'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.344 . Memory (MB): peak = 740.281 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3443 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk1_fifocmd/fifo_64_64_clk1_fifocmd.xdc] for cell 'i_pcileech_fifo/i_fifo_cmd_rx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk1_fifocmd/fifo_64_64_clk1_fifocmd.xdc] for cell 'i_pcileech_fifo/i_fifo_cmd_rx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_74_74_clk1_bar_rd1/fifo_74_74_clk1_bar_rd1.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_74_74_clk1_bar_rd1/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_74_74_clk1_bar_rd1/fifo_74_74_clk1_bar_rd1.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_74_74_clk1_bar_rd1/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk1_bar_rdrsp/fifo_134_134_clk1_bar_rdrsp.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_134_134_clk1_bar_rdrsp/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk1_bar_rdrsp/fifo_134_134_clk1_bar_rdrsp.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_rdengine/i_fifo_134_134_clk1_bar_rdrsp/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_141_141_clk1_bar_wr/fifo_141_141_clk1_bar_wr.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_wrengine/i_fifo_141_141_clk1_bar_wr/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_141_141_clk1_bar_wr/fifo_141_141_clk1_bar_wr.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_bar_controller/i_pcileech_tlps128_bar_wrengine/i_fifo_141_141_clk1_bar_wr/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_1_1_clk2/fifo_1_1_clk2.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_1_1_clk2/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_1_1_clk2/fifo_1_1_clk2.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_1_1_clk2/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk2_comrx/fifo_64_64_clk2_comrx.xdc] for cell 'i_pcileech_com/i_fifo_64_64_clk2_comrx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk2_comrx/fifo_64_64_clk2_comrx.xdc] for cell 'i_pcileech_com/i_fifo_64_64_clk2_comrx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_34_34/fifo_34_34.xdc] for cell 'i_pcileech_fifo/i_fifo_cmd_tx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_34_34/fifo_34_34.xdc] for cell 'i_pcileech_fifo/i_fifo_cmd_tx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_34_34/fifo_34_34.xdc] for cell 'i_pcileech_fifo/i_fifo_loop_tx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_34_34/fifo_34_34.xdc] for cell 'i_pcileech_fifo/i_fifo_loop_tx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_256_32_clk2_comtx/fifo_256_32_clk2_comtx.xdc] for cell 'i_pcileech_com/i_fifo_256_32_clk2_comtx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_256_32_clk2_comtx/fifo_256_32_clk2_comtx.xdc] for cell 'i_pcileech_com/i_fifo_256_32_clk2_comtx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk2/fifo_32_32_clk2.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_rx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk2/fifo_32_32_clk2.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_rx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64/fifo_64_64.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_tx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64/fifo_64_64.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_tx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2/fifo_134_134_clk2.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_dst_fifo/i_fifo_134_134_clk2/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2/fifo_134_134_clk2.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_dst_fifo/i_fifo_134_134_clk2/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2_rxfifo/fifo_134_134_clk2_rxfifo.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_134_134_clk2_rxfifo/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2_rxfifo/fifo_134_134_clk2_rxfifo.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_134_134_clk2_rxfifo/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk1_comtx/fifo_32_32_clk1_comtx.xdc] for cell 'i_pcileech_com/i_fifo_32_32_clk2_comtx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk1_comtx/fifo_32_32_clk1_comtx.xdc] for cell 'i_pcileech_com/i_fifo_32_32_clk2_comtx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_129_129_clk1/fifo_129_129_clk1.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_cfgspace_pcie_tx/i_fifo_129_129_clk1/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_129_129_clk1/fifo_129_129_clk1.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_pcileech_cfgspace_pcie_tx/i_fifo_129_129_clk1/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_49_49_clk2/fifo_49_49_clk2.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_49_49_clk2/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_49_49_clk2/fifo_49_49_clk2.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_49_49_clk2/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_43_43_clk2/fifo_43_43_clk2.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_43_43_clk2/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_43_43_clk2/fifo_43_43_clk2.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_43_43_clk2/U0'
+Parsing XDC File [C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc]
+Finished Parsing XDC File [C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.srcs/constrs_1/imports/src/pcileech_squirrel.xdc]
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_1_1_clk2/fifo_1_1_clk2_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_1_1_clk2/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_1_1_clk2/fifo_1_1_clk2_clocks.xdc:60]
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_1_1_clk2/fifo_1_1_clk2_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_1_1_clk2/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk2_comrx/fifo_64_64_clk2_comrx_clocks.xdc] for cell 'i_pcileech_com/i_fifo_64_64_clk2_comrx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64_clk2_comrx/fifo_64_64_clk2_comrx_clocks.xdc] for cell 'i_pcileech_com/i_fifo_64_64_clk2_comrx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_256_32_clk2_comtx/fifo_256_32_clk2_comtx_clocks.xdc] for cell 'i_pcileech_com/i_fifo_256_32_clk2_comtx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_256_32_clk2_comtx/fifo_256_32_clk2_comtx_clocks.xdc] for cell 'i_pcileech_com/i_fifo_256_32_clk2_comtx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk2/fifo_32_32_clk2_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_rx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_32_32_clk2/fifo_32_32_clk2_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_rx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64/fifo_64_64_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_tx/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_64_64/fifo_64_64_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_cfg_a7/i_fifo_pcie_cfg_tx/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2/fifo_134_134_clk2_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_dst_fifo/i_fifo_134_134_clk2/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2/fifo_134_134_clk2_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_dst_fifo/i_fifo_134_134_clk2/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2_rxfifo/fifo_134_134_clk2_rxfifo_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_134_134_clk2_rxfifo/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_134_134_clk2_rxfifo/fifo_134_134_clk2_rxfifo_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_src_fifo/i_fifo_134_134_clk2_rxfifo/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_49_49_clk2/fifo_49_49_clk2_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_49_49_clk2/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_49_49_clk2/fifo_49_49_clk2_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_49_49_clk2/U0'
+Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_43_43_clk2/fifo_43_43_clk2_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_43_43_clk2/U0'
+Finished Parsing XDC File [c:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.gen/sources_1/ip/fifo_43_43_clk2/fifo_43_43_clk2_clocks.xdc] for cell 'i_pcileech_pcie_a7/i_pcileech_pcie_tlp_a7/i_pcileech_tlps128_cfgspace_shadow/i_fifo_43_43_clk2/U0'
+INFO: [Project 1-1714] 56 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1513.457 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1942 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 32 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 1 instance 
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 71 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 2 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 1834 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 2 instances
+
+29 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1513.457 ; gain = 1055.039
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1513.457 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 259d5c5aa
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.689 . Memory (MB): peak = 1513.457 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 259d5c5aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1899.395 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 259d5c5aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Phase 1 Initialization | Checksum: 259d5c5aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1899.395 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 259d5c5aa
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.378 . Memory (MB): peak = 1899.395 ; gain = 0.000
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 259d5c5aa
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.405 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Phase 2 Timer Update And Timing Data Collection | Checksum: 259d5c5aa
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.407 . Memory (MB): peak = 1899.395 ; gain = 0.000
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-1566] Pulled 2 inverters resulting in an inversion of 10 pins
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 34 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 159696966
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.573 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Retarget | Checksum: 159696966
+INFO: [Opt 31-389] Phase Retarget created 32 cells and removed 93 cells
+INFO: [Opt 31-1021] In phase Retarget, 76 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 1b7085e17
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.645 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Constant propagation | Checksum: 1b7085e17
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 75 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1899.395 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Phase 5 Sweep | Checksum: 1f7562be6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.946 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Sweep | Checksum: 1f7562be6
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 588 cells
+INFO: [Opt 31-1021] In phase Sweep, 211 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: 209163174
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1899.395 ; gain = 0.000
+BUFG optimization | Checksum: 209163174
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 209163174
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Shift Register Optimization | Checksum: 209163174
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 1f7562be6
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Post Processing Netlist | Checksum: 1f7562be6
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 87 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 260c4fc55
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1899.395 ; gain = 0.000
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 260c4fc55
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Phase 9 Finalization | Checksum: 260c4fc55
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1899.395 ; gain = 0.000
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              32  |              93  |                                             76  |
+|  Constant propagation         |               0  |               0  |                                             75  |
+|  Sweep                        |               0  |             588  |                                            211  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             87  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 260c4fc55
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1899.395 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Power 33-23] Power model is not available for i_STARTUPE2
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+WARNING: [Power 33-230] Invalid input clock frequency for i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1. Out of range!
+Resolution: Please refer to Clocking Resources User Guide for valid input clock frequency.
+WARNING: [Power 33-230] Invalid input clock frequency for i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1. Out of range!
+Resolution: Please refer to Clocking Resources User Guide for valid input clock frequency.
+WARNING: [Power 33-230] Invalid input clock frequency for i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1. Out of range!
+Resolution: Please refer to Clocking Resources User Guide for valid input clock frequency.
+WARNING: [Power 33-230] Invalid input clock frequency for i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1. Out of range!
+Resolution: Please refer to Clocking Resources User Guide for valid input clock frequency.
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 14 BRAM(s) out of a total of 50 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 13 newly gated: 0 Total Ports: 100
+Ending PowerOpt Patch Enables Task | Checksum: 2748c8e95
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.140 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 2748c8e95
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2242.793 ; gain = 343.398
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 26fe1940a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 26fe1940a
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 26fe1940a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2242.793 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+62 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 2242.793 ; gain = 729.336
+INFO: [Vivado 12-24828] Executing command : report_drc -file pcileech_squirrel_top_drc_opted.rpt -pb pcileech_squirrel_top_drc_opted.pb -rpx pcileech_squirrel_top_drc_opted.rpx
+Command: report_drc -file pcileech_squirrel_top_drc_opted.rpt -pb pcileech_squirrel_top_drc_opted.pb -rpx pcileech_squirrel_top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.040 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.044 . Memory (MB): peak = 2242.793 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 42 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1ead60bc1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+WARNING: [Place 30-1241] A large block is missing its placement assignment which must be supplied by IP generation or manually assigned using the LOC property. Cell type: PCIE_2_1 cell name: i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/pcie_top_i/pcie_7x_i/pcie_block_i
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 14c08d3f1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 2187a4a3e
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 2187a4a3e
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 2187a4a3e
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 248340573
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1c3af4e8d
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 22088e06a
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 2.4 Global Place Phase1
+Phase 2.4 Global Place Phase1 | Checksum: 28b48da6e
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 2.5 Global Place Phase2
+
+Phase 2.5.1 UpdateTiming Before Physical Synthesis
+Phase 2.5.1 UpdateTiming Before Physical Synthesis | Checksum: 2d7385e44
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:14 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 2.5.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 385 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 172 nets or LUTs. Breaked 0 LUT, combined 172 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            172  |                   172  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |            172  |                   172  |           0  |           4  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.5.2 Physical Synthesis In Placer | Checksum: 27c9cd5e3
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Phase 2.5 Global Place Phase2 | Checksum: 1ade95457
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:16 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 1ade95457
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:16 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 2890a0dc0
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:17 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 25eabf240
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:20 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 2a1d0489e
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:20 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 276b62b08
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:20 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 18d94e0d7
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:23 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 154ca99b7
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:24 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 1863d1469
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:24 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1863d1469
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:24 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 19924a730
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.297 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1649f6513
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.487 . Memory (MB): peak = 2242.793 ; gain = 0.000
+INFO: [Place 46-33] Processed net i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/user_reset_out_reg_1, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-56] BUFG insertion identified 1 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 1, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
+Ending Physical Synthesis Task | Checksum: 1a3ba0472
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.620 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 19924a730
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:28 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.521. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 282f89fd8
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:29 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:29 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 282f89fd8
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:29 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 282f89fd8
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:29 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                2x2|                8x8|
+|___________|___________________|___________________|
+|      South|                1x1|                2x2|
+|___________|___________________|___________________|
+|       East|                1x1|                2x2|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 282f89fd8
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:29 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 282f89fd8
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:29 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:29 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 29cae88a6
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:29 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Ending Placer Task | Checksum: 21aeb0031
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:29 . Memory (MB): peak = 2242.793 ; gain = 0.000
+98 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:31 . Memory (MB): peak = 2242.793 ; gain = 0.000
+INFO: [Vivado 12-24838] Running report commands "report_control_sets, report_io, report_utilization" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_io -file pcileech_squirrel_top_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 2242.793 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_control_sets -verbose -file pcileech_squirrel_top_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.072 . Memory (MB): peak = 2242.793 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_utilization -file pcileech_squirrel_top_utilization_placed.rpt -pb pcileech_squirrel_top_utilization_placed.pb
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2242.793 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top_placed.dcp' has been generated.
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2242.793 ; gain = 0.000
+INFO: [Vivado_Tcl 4-2279] Estimated Timing Summary | WNS= 0.521 | TNS= 0.000 | 
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. All physical synthesis setup optimizations will be skipped.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+109 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.195 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2242.793 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2242.793 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: fb960949 ConstDB: 0 ShapeSum: 7ed39a91 RouteDB: a0815c57
+Post Restoration Checksum: NetGraph: d920a37d | NumContArr: 8e1fab25 | Constraints: c2a8fa9d | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 2ec9243dc
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 2ec9243dc
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 2242.793 ; gain = 0.000
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 2ec9243dc
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 2242.793 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 17e2ddf49
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 2301.734 ; gain = 58.941
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.363  | TNS=0.000  | WHS=-1.703 | THS=-1927.734|
+
+
+Phase 2.4 Update Timing for Bus Skew
+
+Phase 2.4.1 Update Timing
+Phase 2.4.1 Update Timing | Checksum: 214a05561
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 2311.207 ; gain = 68.414
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.363  | TNS=0.000  | WHS=-1.296 | THS=-45.431|
+
+Phase 2.4 Update Timing for Bus Skew | Checksum: 1b6c25d38
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00302958 %
+  Global Horizontal Routing Utilization  = 0.000650703 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 22815
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 22815
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 24949db20
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 3 Global Routing
+Phase 3 Global Routing | Checksum: 24949db20
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 4 Initial Routing
+
+Phase 4.1 Initial Net Routing Pass
+Phase 4.1 Initial Net Routing Pass | Checksum: 2f33f0fa8
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:26 . Memory (MB): peak = 2311.902 ; gain = 69.109
+Phase 4 Initial Routing | Checksum: 2f33f0fa8
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:26 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 5 Rip-up And Reroute
+
+Phase 5.1 Global Iteration 0
+ Number of Nodes with overlaps = 3309
+ Number of Nodes with overlaps = 288
+ Number of Nodes with overlaps = 49
+ Number of Nodes with overlaps = 12
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.546  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Global Iteration 0 | Checksum: 283b76870
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:38 . Memory (MB): peak = 2311.902 ; gain = 69.109
+Phase 5 Rip-up And Reroute | Checksum: 283b76870
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:38 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 6 Delay and Skew Optimization
+
+Phase 6.1 Delay CleanUp
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1d90e0585
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:38 . Memory (MB): peak = 2311.902 ; gain = 69.109
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.546  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 6.1 Delay CleanUp | Checksum: 2394a7462
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:38 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 6.2 Clock Skew Optimization
+Phase 6.2 Clock Skew Optimization | Checksum: 2394a7462
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:39 . Memory (MB): peak = 2311.902 ; gain = 69.109
+Phase 6 Delay and Skew Optimization | Checksum: 2394a7462
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:00:39 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Hold Fix Iter
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.546  | TNS=0.000  | WHS=0.048  | THS=0.000  |
+
+Phase 7.1 Hold Fix Iter | Checksum: 19e7de2d8
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:39 . Memory (MB): peak = 2311.902 ; gain = 69.109
+Phase 7 Post Hold Fix | Checksum: 19e7de2d8
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:39 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 18.7635 %
+  Global Horizontal Routing Utilization  = 19.9896 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 19e7de2d8
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:39 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 19e7de2d8
+
+Time (s): cpu = 00:00:58 ; elapsed = 00:00:39 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 212b1ab1b
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 11 Post Process Routing
+Phase 11 Post Process Routing | Checksum: 212b1ab1b
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Phase 12 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.546  | TNS=0.000  | WHS=0.048  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 12 Post Router Timing | Checksum: 212b1ab1b
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 2311.902 ; gain = 69.109
+Total Elapsed time in route_design: 40.36 secs
+
+Phase 13 Post-Route Event Processing
+Phase 13 Post-Route Event Processing | Checksum: 119a90291
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:40 . Memory (MB): peak = 2311.902 ; gain = 69.109
+INFO: [Route 35-16] Router Completed Successfully
+Ending Routing Task | Checksum: 119a90291
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:41 . Memory (MB): peak = 2311.902 ; gain = 69.109
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+122 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:00 ; elapsed = 00:00:41 . Memory (MB): peak = 2311.902 ; gain = 69.109
+INFO: [Vivado 12-24828] Executing command : report_drc -file pcileech_squirrel_top_drc_routed.rpt -pb pcileech_squirrel_top_drc_routed.pb -rpx pcileech_squirrel_top_drc_routed.rpx
+Command: report_drc -file pcileech_squirrel_top_drc_routed.rpt -pb pcileech_squirrel_top_drc_routed.pb -rpx pcileech_squirrel_top_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top_drc_routed.rpt.
+report_drc completed successfully
+INFO: [Vivado 12-24828] Executing command : report_methodology -file pcileech_squirrel_top_methodology_drc_routed.rpt -pb pcileech_squirrel_top_methodology_drc_routed.pb -rpx pcileech_squirrel_top_methodology_drc_routed.rpx
+Command: report_methodology -file pcileech_squirrel_top_methodology_drc_routed.rpt -pb pcileech_squirrel_top_methodology_drc_routed.pb -rpx pcileech_squirrel_top_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 2370.219 ; gain = 31.734
+INFO: [Vivado 12-24828] Executing command : report_timing_summary -max_paths 10 -report_unconstrained -file pcileech_squirrel_top_timing_summary_routed.rpt -pb pcileech_squirrel_top_timing_summary_routed.pb -rpx pcileech_squirrel_top_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [Vivado 12-24838] Running report commands "report_incremental_reuse, report_route_status" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_incremental_reuse -file pcileech_squirrel_top_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [Vivado 12-24828] Executing command : report_route_status -file pcileech_squirrel_top_route_status.rpt -pb pcileech_squirrel_top_route_status.pb
+INFO: [Vivado 12-24828] Executing command : report_power -file pcileech_squirrel_top_power_routed.rpt -pb pcileech_squirrel_top_power_summary_routed.pb -rpx pcileech_squirrel_top_power_routed.rpx
+Command: report_power -file pcileech_squirrel_top_power_routed.rpt -pb pcileech_squirrel_top_power_summary_routed.pb -rpx pcileech_squirrel_top_power_routed.rpx
+INFO: [Power 33-23] Power model is not available for i_STARTUPE2
+Running Vector-less Activity Propagation...
+WARNING: [Power 33-230] Invalid input clock frequency for i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1. Out of range!
+Resolution: Please refer to Clocking Resources User Guide for valid input clock frequency.
+WARNING: [Power 33-230] Invalid input clock frequency for i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1. Out of range!
+Resolution: Please refer to Clocking Resources User Guide for valid input clock frequency.
+WARNING: [Power 33-230] Invalid input clock frequency for i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1. Out of range!
+Resolution: Please refer to Clocking Resources User Guide for valid input clock frequency.
+WARNING: [Power 33-230] Invalid input clock frequency for i_pcileech_pcie_a7/i_pcie_7x_0/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1. Out of range!
+Resolution: Please refer to Clocking Resources User Guide for valid input clock frequency.
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+140 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [Vivado 12-24828] Executing command : report_clock_utilization -file pcileech_squirrel_top_clock_utilization_routed.rpt
+INFO: [Vivado 12-24828] Executing command : report_bus_skew -warn_on_violation -file pcileech_squirrel_top_bus_skew_routed.rpt -pb pcileech_squirrel_top_bus_skew_routed.pb -rpx pcileech_squirrel_top_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+generate_parallel_reports: Time (s): cpu = 00:00:29 ; elapsed = 00:00:17 . Memory (MB): peak = 2424.688 ; gain = 112.785
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 2457.941 ; gain = 16.219
+Wrote PlaceDB: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2461.820 ; gain = 20.098
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2461.820 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.161 . Memory (MB): peak = 2461.820 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2461.820 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2461.820 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2461.820 ; gain = 20.098
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/impl_1/pcileech_squirrel_top_routed.dcp' has been generated.
+Command: write_bitstream -force pcileech_squirrel_top.bit -bin_file
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+WARNING: [Designutils 12-1515] STARTUP component has an active signal connected to CLK pin. Setting StartupClk to UserClk.
+Creating bitmap...
+Creating bitstream...
+Bitstream compression saved 5039040 bits.
+Writing bitstream ./pcileech_squirrel_top.bit...
+Writing bitstream ./pcileech_squirrel_top.bin...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+155 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:20 ; elapsed = 00:00:13 . Memory (MB): peak = 2967.176 ; gain = 505.355
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 12 15:05:09 2025...

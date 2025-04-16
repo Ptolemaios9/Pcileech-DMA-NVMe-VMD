@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sat Apr 12 15:00:18 2025
+# Process ID         : 10676
+# Current directory  : C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/bram_bar_zero4k_synth_1
+# Command line       : vivado.exe -log bram_bar_zero4k.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bram_bar_zero4k.tcl
+# Log file           : C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/bram_bar_zero4k_synth_1/bram_bar_zero4k.vds
+# Journal file       : C:/Users/Administrator/Desktop/vmd/pcileech_squirrel/pcileech_squirrel.runs/bram_bar_zero4k_synth_1\vivado.jou
+# Running On         : DESKTOP-JJ1DEVM
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13600KF
+# CPU Frequency      : 3494 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 17023 MB
+# Swap memory        : 3087 MB
+# Total Virtual      : 20110 MB
+# Available Virtual  : 10929 MB
+#-----------------------------------------------------------
+source bram_bar_zero4k.tcl -notrace
