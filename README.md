@@ -12,6 +12,6 @@ Official website：https://beater.solutions
 
 discord：https://discord.gg/beater
 
-🔥Beater's DC channel offers free firmware inside (including VMD which is overpriced by many firmware scammers lately), which is enough to deal with any anti-cheat detection and play the games you want to play! There is also a faster and more convenient firmwareflash in the channel, which supports all RS232 and CH347 DMAcards!
+🔥Beaters DC channel offers free firmware inside (including VMD which is overpriced by many firmware scammers lately，Many firmware distributors are angry because Beater has made VMD firmware available for free.), which is enough to deal with any anti-cheat detection and play the games you want to play! There is also a faster and more convenient firmwareflash in the channel, which supports all RS232 and CH347 DMAcards!
 
 ## I'll create a detailed VMD guide sometime soon
