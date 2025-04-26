@@ -1,8 +1,8 @@
 # Pcileech-DMA-NAMe-VMD
 
-**🤬The recent craze for overpriced VMD firmware doesn't really match the price tag.**
+**🤬Many firmware scammers sell Beater's free and open source VMD firmware at high prices.**
 
-**😊I did not originate this source code, but I have an obligation to open source it~**
+**😊I did not originate this source code, but I have an obligation to open source it.**
 
 **😄How it hurts the firmware scammers who sell VMD firmware at high prices, and I won't apologise at all for that！**
 
