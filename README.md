@@ -16,6 +16,6 @@ discord：https://discord.gg/beater
 
 ### ⚠VMD firmware solution has been discovered by game developers, but it is still safe.  It has been free and open source from the beginning.
 ### ⚠Beater has never relied on the VMD firmware solution, Never tried to sell VMD firmware solutions for profit.
-### 💀Those firmware scammers who are still selling VMD firmware solutions at high prices will be sent to jail one day.
+### 💀Those firmware scammers who are still selling VMD firmware solution at high prices will be sent to jail one day.
 ![image](https://github.com/user-attachments/assets/eda4c589-cadc-40aa-b0cc-d649974852b1)
 ![image](https://github.com/user-attachments/assets/874465ef-598b-4e79-8dab-58a297a8f14d)
