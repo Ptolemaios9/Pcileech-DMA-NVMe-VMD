@@ -1,4 +1,4 @@
-# Pcileech-DMA-NAMe-VMD
+# Pcileech-DMA-NVMe-VMD
 
 **🤬Many firmware scammers sell Beater's free and open source VMD firmware at high prices.**
 
