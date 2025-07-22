@@ -6,7 +6,7 @@
 
 discord：https://discord.gg/beater
 
-🔥Beaters DC channel offers free firmware (including VMD which is overpriced by many firmware scammers lately，Many scammers firmware distributors are angry because Beater has made VMD firmware available for free，Try to discredit Beater by claiming that the free firmware is unsafe so that users can buy their paid Poor quality firmware.),BeaterFreeVMD play the games you want to play!VGK has implemented VMD detection not long ago, and EAC BE still runs well. Beater Never tried to sell VMD firmware solutions for profit.
+🔥Beaters DC channel offers free firmware (Many scammers firmware distributors are angry because Beater has made VMD firmware available for free，Try to discredit Beater by claiming that the free firmware is unsafe so that users can buy their paid Poor quality firmware.),BeaterFreeVMD play the games you want to play!VGK has implemented VMD detection not long ago, and EAC BE still runs well. Beater Never tried to sell VMD firmware solutions for profit.
 
 ### Requirements↓
 -  Intel CPU (11th Generation or newer) in the main PC where the DMA card is installed.
